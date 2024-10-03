@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Extension</title>
+        <style>
+            .button-grid {
+                display: grid;
+                grid-template-columns: repeat(3, auto);
+                grid-template-rows: repeat(4, auto);
+                gap: 3px;
+                width: 80px;
+                margin: 0 auto;
+            }
+
+            .button-grid button {
+                width: 25px; 
+                height: 25px; 
+                font-size: 18px;
+                background-color: #d6d6d6;
+                color: black;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                line-height: 1;
+                text-align: center;
+            }
+
+            .button-grid button:hover {
+                background-color: #666666;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="button-grid">
+            <button id="horizontal">─</button>
+            <button id="total">█</button>
+            <button id="vertical">│</button>
+            <button id="up_left">┌</button>
+            <button id="up_center">┬</button>
+            <button id="up_right">┐</button>
+            <button id="center_left">├</button>
+            <button id="center">┼</button>
+            <button id="center_right">┤</button>
+            <button id="down_left">└</button>
+            <button id="down_center">┴</button>
+            <button id="down_right">┘</button>
+        </div>
+    </body>
+    <script src="popup.js"></script>
+</html>

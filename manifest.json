@@ -1,0 +1,15 @@
+{
+    "manifest_version": 1,
+    "name": "Grid",
+    "version": "1.0",
+    "description": "Extensión para crear grids con caracteres ASCII",
+    "icons": {
+        "128": "icon.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": {},
+    "permissions": ["clipboardWrite"],
+    "background": {}
+}
